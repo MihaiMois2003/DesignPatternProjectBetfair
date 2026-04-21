@@ -1,4 +1,7 @@
 package ro.digitalstack.betfair.observer;
 
-public class OrderObserver {
+import ro.digitalstack.betfair.model.Order;
+
+public interface OrderObserver {
+    void update(Order order);
 }
